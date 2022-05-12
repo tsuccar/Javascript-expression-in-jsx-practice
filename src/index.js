@@ -6,3 +6,8 @@
 //E.g.
 //Created by Angela Yu.
 //Copyright 2019.
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(<h1>Hello</h1>, document.getElementById("root"));
