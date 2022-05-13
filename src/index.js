@@ -10,4 +10,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>Hello</h1>, document.getElementById("root"));
+const NAME = "Tyrel";
+const CURRENTYEAR = new Date().getFullYear();
+
+ReactDOM.render(
+  <div>
+    <h1>Hello</h1>
+    <p>Created by {NAME}</p>
+    <p> Copyright {CURRENTYEAR}</p>
+  </div>,
+  document.getElementById("root")
+);
